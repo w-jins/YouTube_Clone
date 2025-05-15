@@ -1,16 +1,16 @@
 .sidebar {
     position: fixed;
     top: 55px;
-    left: 0;
+    left: 5px;
     bottom: 0;
-    background-color: #212121ff;
-    width: 72px;
-    z-index: 200;
+    background-color: #181818;
+    z-index: 90;
+    width: 70px;
     padding-top: 5px;
 }
 
 .sidebar-link {
-    height : 74px;
+    height: 74px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,7 @@
 }
 .sidebar-link:hover {
     background-color: #4d4d4d;
+    border-radius: 12px;
 }
 
 .sidebar-link img {

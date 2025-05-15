@@ -3,7 +3,7 @@
 
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 
     position: fixed;
     top: 0;
@@ -11,11 +11,10 @@
     right: 0;
     z-index: 100;
 
-    background-color: #212121FF;
-    border-bottom-width:1px;
+    background-color: #212121ff;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color:#4d4d4d;
-
+    border-bottom-color: #4d4d4d;
 }
 
 .left-section {
@@ -31,7 +30,6 @@
 
 .youtube-logo {
     height: 70px;
-
 }
 
 .middle-section {
@@ -41,14 +39,14 @@
     max-width: 500px;
     display: flex;
     align-items: center;
-
 }
 .search-bar {
     height: 36px;
-    padding-left:10px;
+    padding-left: 10px;
     font-size: 16px;
-    border:1px solid #4d4d4d;
-    border-radius:2px;
+    border: 1px solid #4d4d4d;
+    border-top-left-radius: 12px;
+    border-end-start-radius: 12px;
     background-color: #121212;
     flex: 1;
 }
@@ -56,39 +54,38 @@
     font-size: 16px;
 }
 
-
 .search-button {
     height: 40px;
     width: 66px;
     background-color: #323232;
-    border: 1px solid #4D4D4D;
+    border: 1px solid #4d4d4d;
+    border-top-right-radius: 12px;
+    border-end-end-radius: 12px;
     margin-left: -1px;
     margin-right: 10px;
-
 }
 
 .search-icon {
     height: 25px;
 }
 
-.search-button, 
-.voice-search-button ,
+.search-button,
+.voice-search-button,
 .upload-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    position:relative;
-
+    position: relative;
 }
 
-.search-button .tooltip, 
-.voice-search-button .tooltip ,
+.search-button .tooltip,
+.voice-search-button .tooltip,
 .upload-icon-container .tooltip {
     position: absolute;
     background-color: gray;
     padding: 4px 8px;
     bottom: -30px;
-    border-radius:2px;
+    border-radius: 2px;
     font-size: 12px;
     opacity: 0;
     transition: opacity 0.15s;
@@ -97,12 +94,11 @@
     color: white;
 }
 
-.search-button:hover .tooltip, 
-.voice-search-button:hover .tooltip ,
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
 .upload-icon-container:hover .tooltip {
     opacity: 1;
 }
-
 
 .voice-search-button {
     height: 40px;
@@ -110,10 +106,9 @@
     border-radius: 20px;
     border: none;
     background-color: #121212;
-
 }
 .voice-search-icon {
-    height:24px;
+    height: 24px;
 }
 
 .upload-icon {
@@ -141,7 +136,6 @@
 
 .notifications-icon-container {
     position: relative;
-
 }
 
 .notifications-count {
